@@ -17,7 +17,9 @@ public:
 
 	void RandomMove(FVector2D&);
 	void DisplayMove(FVector2D, FVector2D);
-	void Step(FVector2D&, FVector2D);
+	double Step(FVector2D&, FVector2D, int&);
+	double Distance(double, double);
+	void ActiveEvent();
 
 protected:
 	// Called when the game starts or when spawned
